@@ -91,7 +91,7 @@ namespace To_Do_List
 
         private void button_Cancel_Click(object sender, EventArgs e)
         {
-            this.DialogResult = DialogResult.Cancel;
+            this.Close();
 
         }
 
